@@ -25,6 +25,8 @@
 		79592195192378A800360A19 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79592170192378A700360A19 /* CoreData.framework */; };
 		7959219D192378A800360A19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7959219B192378A800360A19 /* InfoPlist.strings */; };
 		7959219F192378A800360A19 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7959219E192378A800360A19 /* TestTests.m */; };
+		795921AA19238AE100360A19 /* TAFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 795921A919238AE100360A19 /* TAFooterView.m */; };
+		795921AC19238AEE00360A19 /* TAFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795921AB19238AEE00360A19 /* TAFooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		7959219A192378A800360A19 /* TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
 		7959219C192378A800360A19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7959219E192378A800360A19 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		795921A819238AE100360A19 /* TAFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAFooterView.h; sourceTree = "<group>"; };
+		795921A919238AE100360A19 /* TAFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAFooterView.m; sourceTree = "<group>"; };
+		795921AB19238AEE00360A19 /* TAFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAFooterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,9 @@
 				7959218A192378A700360A19 /* Images.xcassets */,
 				79592181192378A700360A19 /* Test.xcdatamodeld */,
 				79592173192378A700360A19 /* Supporting Files */,
+				795921A819238AE100360A19 /* TAFooterView.h */,
+				795921A919238AE100360A19 /* TAFooterView.m */,
+				795921AB19238AEE00360A19 /* TAFooterView.xib */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795921AC19238AEE00360A19 /* TAFooterView.xib in Resources */,
 				7959218B192378A700360A19 /* Images.xcassets in Resources */,
 				79592177192378A700360A19 /* InfoPlist.strings in Resources */,
 				79592180192378A700360A19 /* Main.storyboard in Resources */,
@@ -264,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795921AA19238AE100360A19 /* TAFooterView.m in Sources */,
 				79592179192378A700360A19 /* main.m in Sources */,
 				7959217D192378A700360A19 /* TAAppDelegate.m in Sources */,
 				79592186192378A700360A19 /* TAMainViewController.m in Sources */,
@@ -473,6 +483,7 @@
 				795921A4192378A800360A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		795921A5192378A800360A19 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +492,7 @@
 				795921A7192378A800360A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
